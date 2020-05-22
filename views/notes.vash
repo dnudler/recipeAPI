@@ -1,0 +1,20 @@
+@html.extend('layout', function(model){
+    
+    @html.block("scripts", function (model){
+        <script src="/js/notesView.js"></script>
+    })
+
+    @html.block("body", function (model){
+        <div ng-app="notesView">
+            <a href="/" class="btn btn-info">back</a>
+            <div ng-controller="notesViewController">
+                <div class="note" ng-repeat="n in notes" ng-class="'note-' + n.color">
+                    <div>{{ n.note }}</div>
+                    <div class="note-author"><small>-{{ n.author }}</small></div> 
+                </div>
+                
+            </div>
+        </div>
+
+    })
+})

@@ -1,0 +1,3 @@
+D:\Projects\Personal\NodejsTests\TheBoard\obj\Debug\TheBoard.njsprojAssemblyReference.cache
+D:\Projects\Personal\NodejsTests\TheBoard\obj\Debug\TheBoard.njsproj.CoreCompileInputs.cache
+D:\Projects\Personal\NodejsTests\TheBoard\bin\Microsoft.NodejsTools.WebRole.dll

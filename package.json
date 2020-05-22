@@ -1,0 +1,26 @@
+{
+  "name": "the-board",
+  "version": "0.1.0",
+  "description": "A message board based on sticky notes.",
+  "main": "server.js",
+  "author": {
+    "name": "Diego Nudler",
+    "email": "diego.nudler@gmail.com"
+  },
+  "dependencies": {
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.3",
+    "ejs-locals": "^1.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "grunt": "^1.1.0",
+    "jade": "^1.11.0",
+    "mongodb": "^3.5.7",
+    "underscore": "^1.10.2",
+    "vash": "^0.13.0"
+  },
+  "devDependencies": {
+    "grunt-nodemon": "^0.4.2"
+  }
+}
